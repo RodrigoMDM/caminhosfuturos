@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caminhos Futuros: Descubra sua Carreira Ideal</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Caminhos Futuros</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Início</a></li>
+                <li><a href="#carreiras">Carreiras</a></li>
+                <li><a href="#teste">Teste de Interesse</a></li>
+                <li><a href="#recursos">Recursos Adicionais</a></li>
+                <li><a href="#contato">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio">
+        <h2>Bem-vindo ao Caminhos Futuros</h2>
+        <p>Descubra sua carreira ideal! Explore diferentes campos profissionais e encontre a carreira que melhor se alinha com seus interesses e objetivos.</p>
+    </section>
+
+    <section id="carreiras">
+        <h2>Carreiras</h2>
+        <div class="carreira">
+            <h3>Engenharia de Software</h3>
+            <p><strong>Descrição:</strong> Desenvolvimento de software, aplicativos e sistemas.</p>
+            <p><strong>Requisitos Educacionais:</strong> Graduação em Ciência da Computação ou áreas relacionadas.</p>
+            <p><strong>Perspectivas de Emprego:</strong> Altamente demandado.</p>
+            <p><strong>Salário Médio:</strong> R$ 8.000 por mês.</p>
+            <p><a href="engenharia-software.html">Saiba mais sobre Engenharia de Software</a></p>
+        </div>
+        <div class="carreira">
+            <h3>Medicina</h3>
+            <p><strong>Descrição:</strong> Diagnóstico e tratamento de doenças.</p>
+            <p><strong>Requisitos Educacionais:</strong> Graduação em Medicina.</p>
+            <p><strong>Perspectivas de Emprego:</strong> Muito demandado.</p>
+            <p><strong>Salário Médio:</strong> R$ 15.000 por mês.</p>
+            <p><a href="medicina.html">Saiba mais sobre Medicina</a></p>
+        </div>
+        <div class="carreira">
+            <h3>Arquitetura</h3>
+            <p><strong>Descrição:</strong> Planejamento e design de edifícios e outras estruturas.</p>
+            <p><strong>Requisitos Educacionais:</strong> Graduação em Arquitetura.</p>
+            <p><strong>Perspectivas de Emprego:</strong> Boa demanda.</p>
+            <p><strong>Salário Médio:</strong> R$ 7.000 por mês.</p>
+            <p><a href="arquitetura.html">Saiba mais sobre Arquitetura</a></p>
+        </div>
+        <div class="carreira">
+            <h3>Direito</h3>
+            <p><strong>Descrição:</strong> Assessoria e representação jurídica.</p>
+            <p><strong>Requisitos Educacionais:</strong> Graduação em Direito e aprovação na OAB.</p>
+            <p><strong>Perspectivas de Emprego:</strong> Boa demanda.</p>
+            <p><strong>Salário Médio:</strong> R$ 9.000 por mês.</p>
+            <p><a href="direito.html">Saiba mais sobre Direito</a></p>
+        </div>
+        <div class="carreira">
+            <h3>Design Gráfico</h3>
+            <p><strong>Descrição:</strong> Criação de gráficos, logotipos e outros elementos visuais.</p>
+            <p><strong>Requisitos Educacionais:</strong> Graduação em Design Gráfico ou áreas relacionadas.</p>
+            <p><strong>Perspectivas de Emprego:</strong> Moderada demanda.</p>
+            <p><strong>Salário Médio:</strong> R$ 4.000 por mês.</p>
+            <p><a href="design-grafico.html">Saiba mais sobre Design Gráfico</a></p>
+        </div>
+    </section>
+
+    <section id="teste">
+        <h2>Teste de Interesse</h2>
+        <p>Responda ao nosso questionário para descobrir carreiras que combinam com seus interesses!</p>
+        <form id="testeInteresseForm">
+            <div class="pergunta">
+                <p>1. Você gosta de trabalhar com tecnologia?</p>
+                <label><input type="radio" name="q1" value="sim"> Sim</label>
+                <label><input type="radio" name="q1" value="nao"> Não</label>
+            </div>
+            <div class="pergunta">
+                <p>2. Você se interessa por cuidados com a saúde?</p>
+                <label><input type="radio" name="q2" value="sim"> Sim</label>
+                <label><input type="radio" name="q2" value="nao"> Não</label>
+            </div>
+            <div class="pergunta">
+                <p>3. Você gosta de criar e desenhar?</p>
+                <label><input type="radio" name="q3" value="sim"> Sim</label>
+                <label><input type="radio" name="q3" value="nao"> Não</label>
+            </div>
+            <div class="pergunta">
+                <p>4. Você tem interesse em leis e justiça?</p>
+                <label><input type="radio" name="q4" value="sim"> Sim</label>
+                <label><input type="radio" name="q4" value="nao"> Não</label>
+            </div>
+            <button type="button" onclick="calcularResultado()">Descobrir Carreira</button>
+        </form>
+        <div id="resultado"></div>
+    </section>    
+
+    <section id="recursos">
+        <h2>Recursos Adicionais</h2>
+        <ul>
+            <li><a href="https://www.mec.gov.br" target="_blank">Ministério da Educação</a> - Informações sobre educação no Brasil.</li>
+            <li><a href="https://www.enem.inep.gov.br" target="_blank">Exame Nacional do Ensino Médio (ENEM)</a> - Preparação para ingresso na universidade.</li>
+            <li><a href="https://www.capes.gov.br" target="_blank">Coordenação de Aperfeiçoamento de Pessoal de Nível Superior (CAPES)</a> - Bolsas de estudo e pesquisa.</li>
+            <li><a href="https://www.fies.gov.br" target="_blank">Fundo de Financiamento Estudantil (FIES)</a> - Financiamento estudantil.</li>
+        </ul>
+    </section>
+
+    <section id="faq">
+        <h2>Perguntas Frequentes</h2>
+        <div class="pergunta-faq">
+            <h3>Como posso usar os resultados do teste de interesse?</h3>
+            <p>Você pode usar os resultados para explorar carreiras recomendadas e pesquisar mais sobre cada uma delas.</p>
+        </div>
+        <div class="pergunta-faq">
+            <h3>O site é gratuito?</h3>
+            <p>Sim, todo o conteúdo do site, incluindo o teste de interesse, é gratuito para todos os usuários.</p>
+        </div>
+    </section>
+
+    <section id="contato">
+        <h2>Contato</h2>
+        <form id="contatoForm">
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="mensagem">Mensagem:</label>
+            <textarea id="mensagem" name="mensagem" required></textarea>
+            <button type="submit">Enviar</button>
+        </form>
+        <div id="mensagemEnviada"></div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Caminhos Futuros. Todos os direitos reservados.</p>
+        <div class="redes-sociais">
+            <a href="#" class="icon-facebook"></a>
+            <a href="#" class="icon-twitter"></a>
+            <a href="#" class="icon-instagram"></a>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
